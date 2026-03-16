@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: dashscope
-  version: "1.25.13"
+  version: "1.25.14"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/dashscope/dashscope-sdk-python/archive/v${{ version }}.tar.gz
-  sha256: cd1c607d70cf51e8e4316c643d920f15822f4f7c3b35d25af1e8f1bd579328ed
+  sha256: 487a8f7f58b74f89c19abe401fa0893664155d3f99708113a3e035c32099ee27
 
 build:
   number: 0
